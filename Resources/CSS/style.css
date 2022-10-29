@@ -1,0 +1,123 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    cursor: grab;
+    text-decoration: underline;
+}
+
+.logo {
+    font-family: 'Satisfy', cursive;
+    margin-left: 1em;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F0F0;
+}
+
+.bar ul li {
+    display: inline;
+    justify-content: space-evenly;
+    margin-right: 1em;
+}
+
+.jumbotron-container {
+    background-image: url(../Images/kate-mclean-jZSL_Dt4Fes-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbotron-container p {
+    font-family: 'Satisfy', cursive;
+    font-size: 7em;
+    opacity: .70;
+    text-align: center;
+}
+
+.summary {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    opacity: .70;
+    padding-left: 2em;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.photos img {
+    border-radius: 20px;
+    margin: 1em;
+}
+
+.quote {
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 2em;
+}
+
+.sign-up {
+    background-image: url(../Images/mel-poole-7UIrTwF2WWo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    opacity: .75;
+    width: 20em;
+    padding: 2em;
+    border-radius: 20px;
+    
+}
+
+label, input {
+    display: block;
+    margin: 1em;
+    opacity:.80;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F0F0;
+}
+
+footer h4 {
+    margin-left: 1em;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 1em;
+    margin-right: 1em;
+}
